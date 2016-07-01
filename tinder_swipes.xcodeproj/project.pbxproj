@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E32506B1D272ADE00E6D465 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E32506A1D272ADE00E6D465 /* AppDelegate.swift */; };
+		9E32506D1D272ADE00E6D465 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E32506C1D272ADE00E6D465 /* ViewController.swift */; };
+		9E3250701D272ADE00E6D465 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E32506E1D272ADE00E6D465 /* Main.storyboard */; };
+		9E3250731D272ADE00E6D465 /* tinder_swipes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9E3250711D272ADE00E6D465 /* tinder_swipes.xcdatamodeld */; };
+		9E3250751D272ADE00E6D465 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E3250741D272ADE00E6D465 /* Assets.xcassets */; };
+		9E3250781D272ADE00E6D465 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E3250761D272ADE00E6D465 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9E3250671D272ADE00E6D465 /* tinder_swipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tinder_swipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E32506A1D272ADE00E6D465 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9E32506C1D272ADE00E6D465 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9E32506F1D272ADE00E6D465 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E3250721D272ADE00E6D465 /* tinder_swipes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = tinder_swipes.xcdatamodel; sourceTree = "<group>"; };
+		9E3250741D272ADE00E6D465 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E3250771D272ADE00E6D465 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E3250791D272ADE00E6D465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E3250641D272ADE00E6D465 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E32505E1D272ADE00E6D465 = {
+			isa = PBXGroup;
+			children = (
+				9E3250691D272ADE00E6D465 /* tinder_swipes */,
+				9E3250681D272ADE00E6D465 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E3250681D272ADE00E6D465 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E3250671D272ADE00E6D465 /* tinder_swipes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E3250691D272ADE00E6D465 /* tinder_swipes */ = {
+			isa = PBXGroup;
+			children = (
+				9E32506A1D272ADE00E6D465 /* AppDelegate.swift */,
+				9E32506C1D272ADE00E6D465 /* ViewController.swift */,
+				9E32506E1D272ADE00E6D465 /* Main.storyboard */,
+				9E3250741D272ADE00E6D465 /* Assets.xcassets */,
+				9E3250761D272ADE00E6D465 /* LaunchScreen.storyboard */,
+				9E3250791D272ADE00E6D465 /* Info.plist */,
+				9E3250711D272ADE00E6D465 /* tinder_swipes.xcdatamodeld */,
+			);
+			path = tinder_swipes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E3250661D272ADE00E6D465 /* tinder_swipes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E32507C1D272ADE00E6D465 /* Build configuration list for PBXNativeTarget "tinder_swipes" */;
+			buildPhases = (
+				9E3250631D272ADE00E6D465 /* Sources */,
+				9E3250641D272ADE00E6D465 /* Frameworks */,
+				9E3250651D272ADE00E6D465 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tinder_swipes;
+			productName = tinder_swipes;
+			productReference = 9E3250671D272ADE00E6D465 /* tinder_swipes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E32505F1D272ADE00E6D465 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Arthur Tonelli";
+				TargetAttributes = {
+					9E3250661D272ADE00E6D465 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9E3250621D272ADE00E6D465 /* Build configuration list for PBXProject "tinder_swipes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E32505E1D272ADE00E6D465;
+			productRefGroup = 9E3250681D272ADE00E6D465 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E3250661D272ADE00E6D465 /* tinder_swipes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E3250651D272ADE00E6D465 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E3250781D272ADE00E6D465 /* LaunchScreen.storyboard in Resources */,
+				9E3250751D272ADE00E6D465 /* Assets.xcassets in Resources */,
+				9E3250701D272ADE00E6D465 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E3250631D272ADE00E6D465 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E32506D1D272ADE00E6D465 /* ViewController.swift in Sources */,
+				9E3250731D272ADE00E6D465 /* tinder_swipes.xcdatamodeld in Sources */,
+				9E32506B1D272ADE00E6D465 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9E32506E1D272ADE00E6D465 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E32506F1D272ADE00E6D465 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9E3250761D272ADE00E6D465 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E3250771D272ADE00E6D465 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E32507A1D272ADE00E6D465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E32507B1D272ADE00E6D465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E32507D1D272ADE00E6D465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tinder_swipes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.altonelli.tinder-swipes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9E32507E1D272ADE00E6D465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tinder_swipes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.altonelli.tinder-swipes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E3250621D272ADE00E6D465 /* Build configuration list for PBXProject "tinder_swipes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E32507A1D272ADE00E6D465 /* Debug */,
+				9E32507B1D272ADE00E6D465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E32507C1D272ADE00E6D465 /* Build configuration list for PBXNativeTarget "tinder_swipes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E32507D1D272ADE00E6D465 /* Debug */,
+				9E32507E1D272ADE00E6D465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9E3250711D272ADE00E6D465 /* tinder_swipes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9E3250721D272ADE00E6D465 /* tinder_swipes.xcdatamodel */,
+			);
+			currentVersion = 9E3250721D272ADE00E6D465 /* tinder_swipes.xcdatamodel */;
+			path = tinder_swipes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9E32505F1D272ADE00E6D465 /* Project object */;
+}
